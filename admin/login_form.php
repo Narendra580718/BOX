@@ -27,12 +27,6 @@ if (isset($_POST['submit'])) {
             $_SESSION['user_type'] = $row['user_type'];
             header('Location: admin_page.php');
         }
-        elseif ($row['user_type']== 'user'){
-
-            $_SESSION['user_name'] = $row['name'];
-            header('Location: ../underdev_dite/index.html');
-
-        }
 
     }else{
         $error[] = 'incorrect email or password';

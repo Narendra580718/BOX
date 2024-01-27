@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 
             if ($stmt->execute()) {
 
-                header("Location: login_form.php");
+                header("Location: ../underdev_dite/login.html");
                 exit;
             }
 
