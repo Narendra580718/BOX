@@ -580,6 +580,36 @@ img{
     height: 110px;
 }
 
+/* FORM SETUP */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: beige;
+    background-color: black;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.a1{
+    padding: 10px;
+}
+
+.a1 input{
+    border-radius: 3px;
+    height: 30px;
+    outline: none;
+}
+
+.images{
+    display: flex;
+}
+
+
+
 @media screen and (max-width:790px) {
     
 .logo{
