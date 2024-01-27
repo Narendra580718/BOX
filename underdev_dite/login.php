@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "box");
+$conn = mysqli_connect("localhost", "jack", "ihateoggy", "box");
 
 
 if (!$conn) {

@@ -2,8 +2,8 @@
 
 $host = "localhost";
 $dbname = "box";
-$username = "root";
-$password = "";
+$username = "jack";
+$password = "ihateoggy";
 
 $mysqli = new mysqli($host, $username, $password, $dbname);
                      
